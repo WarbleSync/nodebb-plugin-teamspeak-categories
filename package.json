@@ -1,0 +1,31 @@
+{
+  "name": "nodebb-plugin-teamspeak-categories",
+  "version": "1.0.0",
+  "description": "Update teamspeak channel descriptions with category data",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WarbleSync/nodebb-plugin-teamspeak-categories"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "quickstart",
+    "shell"
+  ],
+  "author": {
+    "name": "WarbleSync",
+    "email": "warblesync@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarbleSync/nodebb-plugin-teamspeak-categories/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "node-teamspeak": "^1.0.10"
+  }
+}
