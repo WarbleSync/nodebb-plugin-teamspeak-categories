@@ -26,4 +26,9 @@ plugin.addAdminNavigation = function (header, callback) {
 	callback(null, header);
 };
 
+plugin.updateTeamspeakChannel = function(data, callback){
+	controllers.updateTeamspeakChannel(data, callback)
+	// callback(null, data) //passes topic data on to system
+};
+
 module.exports = plugin;
