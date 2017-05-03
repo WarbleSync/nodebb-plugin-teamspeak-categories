@@ -26,6 +26,7 @@
     "compatibility": "^1.0.0"
   },
   "dependencies": {
+    "html-entities": "^1.2.1",
     "node-teamspeak": "^1.0.10"
   }
 }
