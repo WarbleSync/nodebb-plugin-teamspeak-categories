@@ -27,9 +27,33 @@
 			</div>
 		</div>
 	</div>
+	<br/>
+	<div class="row">
+		<div class="col-sm-2 col-xs-12"></div>
+		<div class="col-sm-10 col-xs-12">
+			<!-- IF categories.length -->
+				<p class="lead">
+					Pair your categories and channels below:
+				</p>
+				<!-- BEGIN categories -->
+					<div class="form-group">
+						<label for="category_{categories.cid}">{categories.name}</label>
+						<!-- IF ts_channels.length -->
+						<select id="category_{categories.cid}" class="form-control" name="category_{categories.cid}">
+							<option value="">None</option>
+							<!-- BEGIN ts_channels -->
+							<option value="cid_{ts_channels.cid}">{ts_channels.channel_name}</option>
+							<!-- END ts_channels -->
+					  </select>
+						<!-- END ts_channels.length -->
+					</div>
+				<!-- END categories -->
+			<!-- ENDIF categories.length -->
+		</div>
+	</div>
 </form>
 
-<div class="row">
+<!-- <div class="row">
 	<div class="col-sm-2 col-xs-12"></div>
 	<div class="col-sm-10 col-xs-12">
 		<label for="updateTS">Refresh Channels</label>
@@ -37,20 +61,9 @@
 			<i class="material-icons">refresh</i>
 		</button>
 	</div>
-</div>
-<div class="row">
-	<div class="col-sm-2 col-xs-12"></div>
-	<div class="col-sm-5 col-xs-12">
-		<!-- IF ts_channels.length -->
-			<!-- BEGIN ts_channels -->
-			{ts_channels.channel_name} </br>
-			<!-- END ts_channels -->
-		<!-- ENDIF ts_channels.length -->
-	</div>
-	<div class="col-sm-5 col-xs-12">
+</div> -->
 
-	</div>
-</div>
+
 <button id="save" class="floating-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 	<i class="material-icons">save</i>
 </button>
