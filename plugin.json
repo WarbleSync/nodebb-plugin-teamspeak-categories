@@ -10,7 +10,10 @@
 			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
 		},
 		{
-			"hook": "filter:topic.create", "method": "updateTeamspeakChannel"
+			"hook": "action:topic.save", "method": "updateTeamspeakChannel"
+		},
+		{
+			"hook": "action:nodebb.ready", "method": "updateAllTeamspeakChannels"
 		}
 	],
 	"staticDirs": {
