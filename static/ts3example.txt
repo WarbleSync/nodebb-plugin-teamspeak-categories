@@ -1,0 +1,13 @@
+#Image Link (should be forum image for Category)
+[url=http://forum.vrkgamers.com/c/fps/battlefield1]
+  [img]http://forum.vrkgamers.com/uploads/default/original/1X/ed27f4ffc411ecb2eef0e3f8e9d8312325e0530c.png[/img]
+[/url]
+#Category description
+Battlefield 1 is an upcoming World War I first-person shooter video game developed by EA DICE and published by Electronic Arts.
+
+#horizontal rule
+[hr]
+#Latest Topics section
+[b]Latest Topics:[/b]
+[url=http://forum.vrkgamers.com/t/185][size=18]Given the opportunity to play the Alpha test game![/size][/url]
+Lastest post: July 2nd 2016, 11:42 am
